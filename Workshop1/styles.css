@@ -1,0 +1,51 @@
+/* Style the whole page */
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    background-color: #eaf4f4;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+/* Style the main heading */
+
+h1 {
+    color: #176b87;
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+/* Style all paragraphs */
+
+p {
+    color: #333333;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* Style the image */
+
+img {
+    display: block;
+    width: 250px;
+    max-width: 100%;
+    margin: 25px 0;
+    border-radius: 20px;
+    border: 4px solid #176b87;
+}
+
+/* Style the link */
+
+a {
+    color: #176b87;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Change the link when the mouse is over it */
+
+a:hover {
+    color: #d35400;
+    text-decoration: underline;
+}
