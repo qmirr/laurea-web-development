@@ -1,40 +1,53 @@
-// STEP 1: Print text to the browser console is string ""
+// Exercise 1 - Developer Tools and Console
 
 console.log("Hello, World!");
-
-// STEP 2: Variables
-
-// Store text values in variables
-
-const userName = "Juho";
-const favoriteAnimal = "Blue Elephant";
+alert("Welcome to my JavaScript page!");
 
 
-// Print the variables to the console
-console.log("My name is " + userName);
-console.log("My favorite animal is " + favoriteAnimal);
-// STEP 3: User interaction
-// Display a pop-up message
-alert("tervertetuloa hieoulle nettisivylleni!");
+// Exercise 2 - Variables
 
-// Ask the user for their name
+const userName = "Amir";
+let age = 22;
+const favouriteAnimal = "Panda";
 
-const visitorName = prompt("Mikä on nimesi?");
+console.log(userName);
+console.log(age);
+console.log(favouriteAnimal);
 
-// Print the user's answer
-console.log(visitorName);
+console.log("Hello! My name is " + userName + " and my favourite animal is " + favouriteAnimal + ".");
 
-console.log("Terve " + visitorName + "! Tervetuloa javasciptimn psariin!");
-// Ask the user for their favorite animal
 
-const visitorFavoriteAnimal = prompt("Mikä on lempieläimesi?");
+// Exercise 3 - User Input
 
-// Create a sentence using both answers
+const visitorName = prompt("What is your name?");
 
-console.log("Hello, " + visitorName + "! Your favorite animal is " + visitorFavoriteAnimal + ".");
+console.log("Hello " + visitorName + "! Welcome to JavaScript.");
 
-// ⭐⭐ BONUS Ask the user for their favorite animal.If their favorite animal is "Blue Elephant", print: Great choice! That's my favorite animal too!
-// ⭐⭐ BONUS Otherwise, print: Nice! Your favorite animal is [animal]. Can you figure out how to do this using if / else?
 
-// const visitorFavoriteAnimal = prompt("What is your favorite animal?");
+// Exercise 4 - Conditionals
 
+const visitorAge = prompt("How old are you?");
+
+if (visitorAge >= 18) {
+    console.log("You are an adult.");
+} else {
+    console.log("You are under 18.");
+}
+
+
+// Exercise 5 - Functions
+
+function greetUser(name) {
+    console.log("Hello " + name + "!");
+}
+
+greetUser("Amir");
+greetUser("Juho");
+greetUser("John");
+
+
+// Exercise 6 - Button
+
+function showMessage() {
+    alert("JavaScript works!");
+}
