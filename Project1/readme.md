@@ -24,30 +24,7 @@ Sovelluksella voi tallentaa treenin päivämäärän, treenityypin, keston ja ka
 
 Tässä osiossa esitellään sovelluksen suunniteltu ulkoasu. Rautalankamallissa näkyvät treenin lisäyslomake, liikkeiden lisääminen, treenitilastot ja treenihistoria.
 
-+------------------------------+
-| Kuntosalipäiväkirja          |
-+------------------------------+
-| LISÄÄ TREENI                 |
-| Päivämäärä: [___________]    |
-| Treenityyppi: [__________ v] |
-| Kesto: [____] min            |
-|                              |
-| LIIKKEET                     |
-| Liikkeen nimi: [__________]  |
-| Paino: [___] kg              |
-| Toistot: [8, 7, 6]           |
-| [+ Lisää liike]              |
-| [Tallenna treeni]            |
-+------------------------------+
-| TREENIHISTORIA               |
-| Suodatus: [Kaikki treenit v] |
-| Tallennetut treenit [Poista] |
-+------------------------------+
-| TILASTOT                     |
-| Treenit: [0]                 |
-| Treeniminuutit: [0]          |
-+------------------------------+
-      
+![rautalankamalli](img/rautalankamalli.png)      
 
 ## Verkkolinkit
 
@@ -111,7 +88,7 @@ Projekti on tehty yksilötyönä.
 
 ## Oma arvio ja oppimisen reflektointi
 
-- **Missä onnistuin?** Onnistuin suunnittelemaan kuntosaliharjoitteluun sopivan sovelluksen mitä voin vaikkapa itse hyödyntää ja seurata kehitystä.
+Onnistuin suunnittelemaan kuntosaliharjoitteluun sopivan sovelluksen mitä voin vaikkapa itse hyödyntää ja seurata kehitystä.
 
 ## AI:n käyttö
 
