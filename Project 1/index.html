@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Gym Tracker</h1>
+        <p>Pidä kirjaa kuntosalitreeneistäsi!</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Lisää uusi treeni</h2>
+
+            <form id="workout-form">
+                <label for="workout-date">Päivämäärä</label>
+                <input type="date" id="workout-date" required>
+
+                <label for="workout-type">Treenityyppi</label>
+                <select id="workout-type" required>
+                    <option value="">Valitse treenityyppi</option>
+                    <option value="Pull">Pull</option>
+                    <option value="Push">Push</option>
+                    <option value="Legs">Legs</option>
+                    <option value="Upper body">Upper body</option>
+                    <option value="Lower body">Lower body</option>
+                    <option value="Full body">Full body</option>
+                    <option value="Cardio">Cardio</option>
+                    <option value="Muu">Muu</option>
+                </select>
+
+                <div id="custom-type-container" hidden>
+                    <label for="custom-type">Oma treenityyppi</label>
+                    <input
+                        type="text"
+                        id="custom-type"
+                        placeholder="Esim. Shoulders"
+                    >
+                </div>
+
+                <label for="duration">Treenin kesto (min)</label>
+                <input
+                    type="number"
+                    id="duration"
+                    min="1"
+                    max="600"
+                    value="60"
+                    required
+                >
+
+                <h3>Treeniin kuuluvat liikkeet</h3>
+                <p class="help-text">
+                    Kirjoita toistot järjestyksessä pilkuilla erotettuina.
+                    Esimerkiksi 8, 7, 6 tarkoittaa kolmea sarjaa.
+                </p>
+
+                <div id="exercise-list"></div>
+
+                <button type="button" id="add-exercise" class="secondary-button">
+                    + Lisää liike
+                </button>
+
+                <label for="workout-notes">Lisätiedot (valinnainen)</label>
+                <textarea
+                    id="workout-notes"
+                    rows="3"
+                    placeholder="Esim. fiilis, ennätykset tai muita huomioita"
+                ></textarea>
+
+                <button type="submit">Tallenna treeni</button>
+            </form>
+        </section>
+
+        <section class="card">
+            <h2>Treenitilastot</h2>
+            <div class="stats">
+                <div class="stat">
+                    <span id="workout-count">0</span>
+                    <p>Treenejä yhteensä</p>
+                </div>
+                <div class="stat">
+                    <span id="total-minutes">0</span>
+                    <p>Treeniminuuttia yhteensä</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Treenihistoria</h2>
+
+            <label for="history-filter">Suodata treenityypin mukaan</label>
+            <select id="history-filter">
+                <option value="all">Kaikki treenit</option>
+                <option value="Pull">Pull</option>
+                <option value="Push">Push</option>
+                <option value="Legs">Legs</option>
+                <option value="Upper body">Upper body</option>
+                <option value="Lower body">Lower body</option>
+                <option value="Full body">Full body</option>
+                <option value="Cardio">Cardio</option>
+                <option value="Muu">Muu</option>
+            </select>
+
+            <ul id="workout-history"></ul>
+            <p id="empty-message">Et ole vielä tallentanut treenejä.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Gym Tracker – seuraa omaa kehitystäsi!</p>
+    </footer>
+</body>
+</html>
