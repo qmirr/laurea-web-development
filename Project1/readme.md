@@ -28,9 +28,9 @@ Tässä osiossa esitellään sovelluksen suunniteltu ulkoasu. Rautalankamallissa
 
 ## Verkkolinkit
 
-- **Julkaistu sovellus:** [Lisää GitHub Pages -linkki tähän](https://qmirr.github.io/laurea-web-development/Project1/)
-- **GitHub-repositorio:** [Lisää oman repositoriosi linkki tähän](https://github.com/qmirr/laurea-web-development/tree/main/Project1)
-- **Projektin videoesittely:** [Lisää videoesittelyn linkki tähän](https://www.youtube.com/watch?v=JVDrbQwZ_Yc)
+- **Julkaistu sovellus:** [GitHub Pages -linkki](https://qmirr.github.io/laurea-web-development/Project1/)
+- **GitHub-repositorio:** [GitHub Repositorio](https://github.com/qmirr/laurea-web-development/tree/main/Project1)
+- **Projektin videoesittely:** [Videoesittely](https://www.youtube.com/watch?v=JVDrbQwZ_Yc)
 
 ## Tietoja sovelluksesta
 
