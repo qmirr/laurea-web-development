@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>TRAIN<span>TRACKER</span></h1>
+        <p>LIVE FINNISH TRAIN INFORMATION</p>
+    </header>
+
+    <main>
+        <section class="search-box">
+            <h2>Find your train</h2>
+
+            <label for="station">Choose train station</label>
+            <select id="station">
+                <option value="HKI">Helsinki</option>
+                <option value="PSL">Pasila</option>
+                <option value="TKL">Tikkurila</option>
+                <option value="TPE">Tampere</option>
+            </select>
+
+            <label for="search">Search by train number or line</label>
+            <input
+                id="search"
+                type="text"
+                placeholder="Example:  train number"
+            >
+
+            <button id="search-button">SEARCH TRAINS</button>
+
+            <p class="info-text">
+                Live train information from Finnish railway stations.
+            </p>
+        </section>
+
+        <section class="results">
+            <h2>Station timetable</h2>
+            <p id="station-name">Choose a station to see trains.</p>
+            <p id="message" aria-live="polite"></p>
+            <div id="train-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Train Tracker © 2026</p>
+        <p>Data provided by Digitraffic / Fintraffic</p>
+    </footer>
+
+</body>
+</html>

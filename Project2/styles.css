@@ -1,0 +1,167 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #101820;
+    color: white;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 35px 15px;
+    background: #080d12;
+    border-bottom: 2px solid #00c2a8;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+header h1 span {
+    color: #00c2a8;
+}
+
+header p {
+    color: #aab7c4;
+    margin-top: 8px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+main {
+    width: 90%;
+    max-width: 850px;
+    margin: 35px auto;
+}
+
+.search-box {
+    background: #1b2935;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 15px 0 8px;
+    color: #c5d0d9;
+}
+
+input, select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #40515f;
+    border-radius: 6px;
+    background: #101820;
+    color: white;
+    font-size: 16px;
+}
+
+input:focus, select:focus {
+    outline: 2px solid #00c2a8;
+    border-color: #00c2a8;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    background: #00c2a8;
+    color: #071411;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #00a991;
+}
+
+button:focus {
+    outline: 2px solid white;
+    outline-offset: 3px;
+}
+
+.info-text {
+    color: #8b9aa7;
+    font-size: 13px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.results {
+    margin-bottom: 40px;
+}
+
+#station-name {
+    color: #00c2a8;
+    margin-bottom: 15px;
+}
+
+#message {
+    color: #ffc857;
+    margin: 15px 0;
+}
+
+.train-card {
+    background: #1b2935;
+    padding: 18px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    border-left: 4px solid #00c2a8;
+    transition: transform 0.2s;
+}
+
+.train-card:hover {
+    transform: translateY(-3px);
+}
+
+.train-card h3 {
+    margin-bottom: 10px;
+    color: #00c2a8;
+}
+
+.train-card p {
+    color: #c5d0d9;
+    margin-top: 6px;
+}
+
+.delay {
+    color: #ffc857 !important;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #8b9aa7;
+    font-size: 13px;
+    border-top: 1px solid #263642;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    main {
+        width: 92%;
+        margin: 25px auto;
+    }
+
+    .search-box {
+        padding: 18px;
+    }
+}
