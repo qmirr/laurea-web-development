@@ -21,8 +21,8 @@ Train Tracker on verkkosovellus, jonka avulla käyttäjä voi tarkastella junien
 
 ## Verkkolinkit
 
-- **Julkaistu sovellus:** https://OMA-KÄYTTÄJÄNIMI.github.io/train-tracker/
-- **GitHub-repositorio:** https://github.com/OMA-KÄYTTÄJÄNIMI/train-tracker
+- **Julkaistu sovellus:** https://qmirr.github.io/laurea-web-development/Project2/
+- **GitHub-repositorio:** https://github.com/qmirr/laurea-web-development/tree/main/Project2
 
 ## Tietoja sovelluksesta
 
